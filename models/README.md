@@ -1,8 +1,9 @@
 ### HuggingFace Models for Jlama
 
-Use the `download_hf_models.sh` script to download the models.
+Use the `download-hf-model.sh` script to download the models.
+(This script expects to be run from the project root, NOT from the models/ directory.)
 
 ```shell
-./download_hf_models.sh gpt2-medium
-./download_hf_models.sh -a XXXXXXXX meta-llama/Llama-2-7b-chat-hf
+./download-hf-model.sh gpt2-medium
+./download-hf-model.sh -a XXXXXXXX meta-llama/Llama-2-7b-chat-hf
 ```
